@@ -97,7 +97,7 @@ When writing the commit message:
 
 Each code change should have a corresponding test that covers it.  We have two levels of tests: unit tests and end-to-end (e2e) tests.  Is is desirable to add both types of tests.  The e2e tests can take a while to run, so often times adding to an existing test is sufficient.
 
-## 6. Push and Rebase
+## 5. Push and Rebase
 
 Publish your work on GitHub:
 
@@ -119,7 +119,7 @@ git push -f origin my-fix-branch
 ```
 
 
-## 7. Create a Pull Request
+## 6. Create a Pull Request
 
 When your work is ready to be pulled into *vertica-kubernetes*, you should create a pull request (PR) at GitHub.
 
